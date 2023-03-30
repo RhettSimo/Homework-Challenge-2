@@ -58,53 +58,56 @@ LI {
         font-size: 125%;
     }
     .selfie-of-me {
-        width: px;
-        height: 475px;
+        width: 75%;
+        height: 75%;
     }
     .screencap {
-        width: 190px;
-        height: 142.5px;
+        width: 75%;
+        height: 75%;
     }
     .ai {
-        width: 190px;
-        height: 142.5px;
+        width: 75%;
+        height: 75%;
     }
 }
 
 @media screen and (max-width: 768px) {
     h1, h2, h3, li a, LI {
-        font-size: 150%
+        font-size: 125%
     }
     .selfie-of-me {
-        width: 375px;
-        height: 525px;
+        width: 50%;
+        height: 50%;
     }
     .screencap {
-        width: 140px;
-        height: 105px;
+        width: 50%;
+        height: 50%;
     }
     .ai {
-        width: 140px;
-        height: 105px;
+        width: 50%;
+        height: 50%;
     }
 }
 
 @media screen and (max-width: 576px) {
-    h1, h2, h3, li a, LI {
-        font-size: 175%;
+    h1, h2, h3, LI {
+        font-size: 125%;
+    }
+    li a {
+        font-size: 100%
     }
     .selfie-of-me {
-        width: 250px;
-        height: 350px;
+        width: 25%;
+        height: 25%;
     }
 
     .screencap {
-        width: 200px;
-        height: 150px
+        width: 50%;
+        height: 50%;
     }
 
     .ai {
-        width: 200px;
-        height: 150px
+        width: 50%;
+        height: 50%;
     }
 }
